@@ -27,6 +27,7 @@ export const splashStyle = StyleSheet.create({
     color: COLORS.white,
     textAlign: "center",
     marginBottom: 20,
+    marginVertical: 20,
   },
   footer: {
     alignItems: "center",
