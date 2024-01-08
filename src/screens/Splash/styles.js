@@ -12,10 +12,14 @@ export const splashStyle = StyleSheet.create({
   },
   container: {
     flex: 1,
-    // justifyContent: "space-between",
+    justifyContent: "space-between",
     alignItems: "center",
     flexDirection: "column",
     padding: 20,
+    marginVertical: 60,
+  },
+  header: {
+    alignItems: "center",
   },
   text: {
     fontSize: 18,
@@ -23,5 +27,25 @@ export const splashStyle = StyleSheet.create({
     color: COLORS.white,
     textAlign: "center",
     marginBottom: 20,
+  },
+  footer: {
+    alignItems: "center",
+    width: "100%",
+  },
+  footerHeaderText: {
+    fontSize: 50,
+    fontWeight: "bold",
+    color: COLORS.white,
+    textAlign: "center",
+  },
+  footerText: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: COLORS.white,
+    textAlign: "center",
+    marginVertical: 20,
+  },
+  footerButton: {
+    marginTop: 20,
   },
 });
