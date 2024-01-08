@@ -5,9 +5,23 @@ export const splashStyle = StyleSheet.create({
   imageBackground: {
     width: "100%",
     height: "100%",
+  },
+  icon: {
+    width: 100,
+    height: 100,
+  },
+  container: {
     flex: 1,
-    justifyContent: "center",
+    // justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: COLORS.primary,
+    flexDirection: "column",
+    padding: 20,
+  },
+  text: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: COLORS.white,
+    textAlign: "center",
+    marginBottom: 20,
   },
 });
